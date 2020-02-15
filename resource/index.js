@@ -46,4 +46,14 @@ $(".navbar-toggler").on('click',function(){
 	$('#navbarSupportedContent').slideToggle(400)	
 })
 
+function downloadcv() { 
+    var element = document.createElement('a'); 
+    element.setAttribute('href', 'https://drive.google.com/file/d/16tQWQHvBKKX6jt3BA8uvQD7QUZyRvv5W/view'); 
+    element.setAttribute('download', 'Nathan_CV'); 
+    element.setAttribute('target', '_blank'); 
+	document.body.appendChild(element); 
+    element.click(); 
+    document.body.removeChild(element); 
+}
+$("#home #getcv").on("click",downloadcv)
 window.addEventListener('resize',deleteshow)

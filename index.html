@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nathan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Caveat:400,700|Montserrat:400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="resource/style.css">
+</head>
+
+<body>
+<!-- Loading page-->
+<div id="loading"></div>
+<!-- Navigation bar -->
+<nav class="navbar fix navbar-expand-lg navbar-dark bg-dark pt-2 pb-2 px-0">
+  <a class="navbar-brand ml-3 mr-0 py-0" href=""><i class="fa fa-id-card-o mr-2"></i>Nathan<b>Tam</b></a>
+  <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse mr-lg-5" id="navbarSupportedContent">
+    <div class="col-lg-2 col-xl-5" id="nadis"></div>
+    <ul class="navbar-nav mx-0 mt-2 mt-lg-0 px-0 col-lg-10 col-xl-7 d-flex justify-content-between">
+      <li class="nav-item active px-0 px-lg-3">
+        <a class="nav-link" name="#home">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item px-0 px-lg-3">
+        <a class="nav-link" name="#about">About</a>
+      </li>
+      <li class="nav-item px-0 px-lg-3">
+        <a class="nav-link" name="#cv">CV</a>
+      </li>
+ <!--      <li class="nav-item px-0 px-lg-3">
+        <a class="nav-link" name="#experience">Experience</a>
+      </li>
+      <li class="nav-item px-0 px-lg-3">
+        <a class="nav-link" name="#skills">Skills</a>
+      </li> -->
+      <li class="nav-item px-0 px-lg-3">
+        <a class="nav-link" name="#portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item px-0 px-lg-3">
+        <a class="nav-link" name="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+
+<!-- Background -->
+</nav>
+<div id="background">
+</div>
+
+<!-- Content -->
+<div class="d-flex flex-column align-items-center" id="jump">
+  <!-- Home -->
+  <div id="home" class="innerjump d-flex flex-column col-12 justify-content-center align-items-center">
+    <div class="name">Nathan Tam</div>
+    <div class="descript col-12 col-md-10 col-lg-8">STEM graduate well-prepared for opportunities to develop a career in data analytics and technology sector.</div>
+    <button class="btn" id="getcv">Get my CV</button>  
+  </div>
+
+  <!-- About -->
+  <div id="about" class="innerjump blt d-flex col-12 flex-column flex-lg-row align-items-center justify-content-around">
+    <div class="col-7 col-md-6 col-lg-4 my-4">
+      <div class="col-12 mb-4 title">About Me</div>
+      <img src="IMG/profile.jpeg" class="col-12" id="propic">
+    </div>
+    
+    <div id="about-para" class="col-12 col-sm-10 col-lg-7">
+      <p>I am a master graduate specialising in data science and analytics, and I am pursuing a career in the data science field. I always spent spare time on different projects to acquire relevant skills and experience from different aspects, including data visualisation, SQL, machine learning, and even web development (so I am also an amateur web developer).</p>
+      <p>With my thirst of grasping the essence of the field, I have worked for different institutions as internships or dissertation placement and gained a lot of remarkable experiences. While I kept learning technical skills from colleagues and senior at work, I also found myself comfortable working as a team and teamworking always achieve the most.</p>
+      <p>I am currently open to all sort of opportunities, no matter an individual project or a job, I would love to hear that. At the starting point of my career, I am still exploring and learning. If you want to know more about me, feel free to contact me.</p> 
+    </div>  
+  </div>
+
+  <!-- CV -->
+  <div id="cv" class="innerjump wht d-flex justify-content-center col-12">
+    <div class="title">CV</div>
+    <div class="d-flex flex-column flex-lg-row col-12 col-lg-11 col-xl-10 mt-5">
+      <div class="col-lg-8 flex-column">
+        <div id="education" class="mb-4">
+          <div class="subtitle">Education</div>
+
+          <div class="entry d-flex flex-column">
+            <div class="first d-flex flex-column flex-md-row">
+              <div class="programme mr-2">MSc Data Science and Analytics</div>
+              <div class="institution">Cardiff University</div>
+            </div>
+            <div class="second d-flex ml-1">
+              <div class="country mr-2">United Kingdom</div>
+              <div class="date">09/2018 - 09/2019</div>
+            </div>
+            <div class="third d-flex flex-column ml-3 mb-2">
+              <li class="description">Awarded a pass with Distinction</li>
+            </div>
+          </div>
+
+          <div class="entry d-flex flex-column">
+            <div class="first d-flex flex-column flex-md-row">
+              <div class="programme mr-2">BSc Major in Physics</div>
+              <div class="institution">The University of Hong Kong</div>
+            </div>
+            <div class="second d-flex ml-1">
+              <div class="country mr-2">Hong Kong</div>
+              <div class="date">09/2014 - 07/2018</div>
+            </div>
+            <div class="third d-flex flex-column ml-3 mb-2">
+              <li class="description">Awarded Professor C D Beling Memorial Prize in Physics, 2018</li>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="experience" class="mb-4">
+          <div class="subtitle">Experience</div>
+
+          <div class="entry d-flex flex-column">
+            <div class="first d-flex flex-column flex-md-row">
+              <div class="programme mr-2">Master Dissertation Placement</div>
+              <div class="institution">Public Health Wales</div>
+            </div>
+            <div class="second d-flex ml-1">
+              <div class="country mr-2">United Kingdom</div>
+              <div class="date">06/2019 – 09/2019</div>
+            </div>
+            <div class="third d-flex flex-column ml-3 mb-2">
+              <li class="description">Perform Analysis on “Help Me quit” data for optimizing service scheduling process</li>
+              <li class="description">Developed classification models on clients’ attendance with ensembled methods consist of multiple classifiers such as Naïve Bayes, SVM, Random Forest etc.</li>
+            </div>
+          </div>
+
+          <div class="entry d-flex flex-column">
+            <div class="first d-flex flex-column flex-md-row">
+              <div class="programme mr-2">Internship</div>
+              <div class="institution">PortfoPlus Limited</div>
+            </div>
+            <div class="second d-flex ml-1">
+              <div class="country mr-2">Hong Kong</div>
+              <div class="date">07/2018 - 08/2018</div>
+            </div>
+            <div class="third d-flex flex-column ml-3 mb-2">
+              <li class="description">Developed classification models of customer behaviour with different classification methods consist of logistic regression and Random Forest</li>
+            </div>
+          </div>
+
+          <div class="entry d-flex flex-column">
+            <div class="first d-flex flex-column flex-md-row">
+              <div class="programme mr-2">Capstone Project</div>
+              <div class="institution">The University of Hong Kong</div>
+            </div>
+            <div class="second d-flex ml-1">
+              <div class="country mr-2">Hong Kong</div>
+              <div class="date">10/2017 - 05/2018</div>
+            </div>
+            <div class="third d-flex flex-column ml-3 mb-2">
+              <li class="description">Eliminate the possibilities of several unclassified stellar objects being gamma-ray binaries through Fourier transform periodic search on the time-series data</li>
+            </div>
+          </div>
+
+          <div class="entry d-flex flex-column">
+            <div class="first d-flex flex-column flex-md-row">
+              <div class="programme mr-2">Management Assistant</div>
+              <div class="institution">CK Engineering and Construction Limited</div>
+            </div>
+            <div class="second d-flex ml-1">
+              <div class="country mr-2">Hong Kong</div>
+              <div class="date">07/2017 - 08/2017</div>
+            </div>
+            <div class="third d-flex flex-column ml-3 mb-2">
+              <li class="description">Improve ETL process of daily routine business data</li>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+
+      <div id="skills" class="col-lg-4 d-flex mb-4 flex-column">
+        <div class="subtitle">Skills</div>
+        <div class="d-flex flex-column">
+          <div id="ds-tool" class="mb-3">
+            <div class="hdr">Data Science Tools</div>
+            <div>Python
+              <div class="subskill">Scikit-Learn</div>
+              <div class="subskill">Keras</div>
+              <div class="subskill">Seaborn</div>
+              <div class="subskill">Plotly</div>
+            </div>
+            <div>SQL
+              <div class="subskill">MySQL</div>
+              <div class="subskill">T-SQL</div>
+            </div>
+            <div>R</div>
+            <div>Excel</div>
+            <div>Tableau</div>
+          </div>
+          <div id="webdev" class="mb-3">
+            <div class="hdr">Web Development</div>
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>Javascript
+              <div class="subskill">JQuery</div>
+            </div>
+            <div>Bootstrap 4</div>
+            <div>NodeJS
+              <div class="subskill">Express</div>
+            </div>
+          </div>
+          <div id="other" class="mb-3">
+            <div class="hdr">Others</div>
+            <div>C++</div>
+            <div>Microsoft Office</div>
+          </div>
+          <div id="lang" class="mb-3">
+            <div class="hdr">Language</div>
+            <div>Cantonese (native)</div>
+            <div>English (fluent)</div>
+            <div>Mandarin (converstational)</div>
+          </div>
+        </div>
+      </div>
+      
+    </div>  
+  </div>
+
+  <!-- Portfolio -->
+  <div id="portfolio" class="innerjump blt d-flex col-12 flex-column align-items-center">
+    
+  </div>
+
+  <!-- Contact -->
+  <div id="contact" class="innerjump wht d-flex col-12 flex-column align-items-center">
+    
+  </div>
+
+  
+  
+</div>
+
+<!-- jQuery 3.3.1, Bootstrap 4.1.3 -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- Manual index script -->
+<script type="text/javascript" src="resource/index.js"></script>
+</body>
+</html>

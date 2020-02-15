@@ -1,0 +1,226 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+#loading{
+	height: 100vh; 
+	width: 100%; 
+	background-color: white;
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 1001;
+}
+
+nav.navbar.navbar-dark{
+	background-color: rgba(0,0,0,.7)!important;
+}
+nav.fix{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+button:focus {
+    box-shadow:none !important;
+    outline: 0px !important;
+}
+.navbar-brand{
+	/*font-family: 'Lobster', cursive;*/
+	font-size: 24px;
+	font-weight:light;
+}
+
+#nadis{
+	width:0px;
+}
+
+.nav-item{
+	text-align: center;
+}
+
+li.nav-item.shrink:hover{
+	background-color: rgba(255,255,255,.2);
+}
+
+
+/*body*/
+#jump{
+	background-color: rgba(255,255,255,0.3);
+  	padding: 0;
+}
+
+#background{
+	position: fixed;
+	top: 0;
+	min-height: 100vh;
+	width: 100vw;
+	z-index: -100;
+	background-image: url("IMG/home2.jpg");
+	background-position: center center;
+	background-size: cover;
+  	background-repeat: no-repeat;	
+}
+
+/*Home*/
+#home{
+	background-color: rgba(0,0,0,0.5);
+	color: rgba(255,255,255,1);
+}
+#home .name{
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5),-1px -2px 4px rgba(0, 0, 0, 0.5);
+	font-family: 'Caveat', cursive;
+}
+#home .descript{
+	font-size: 40px;
+	text-align: center;
+	text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5),-1px -2px 4px rgba(0, 0, 0, 0.5);
+	font-family: 'Caveat', cursive;
+	border-top: 2px solid white;
+}
+
+#home .btn{
+	border: 2px solid rgba(255,255,255,1);
+	background-color: transparent;
+	color:  rgba(255,255,255,1);
+	position:absolute;
+	bottom: 80px;
+	right: 80px;
+}
+#home .btn:hover{
+	background-color: rgba(255,255,255,1);
+	color:  black;
+}
+
+@media (max-width: 991px){
+	#home .descript{
+	font-size: 28px;}
+
+	#home .btn{
+	position:absolute;
+	bottom: 6vh;
+	right: auto;
+	}
+}
+@media (max-width: 575px){
+	#home .descript{
+	font-size: 25px;}	
+}
+
+/*About Me*/
+#propic{
+	border-radius: 50%;
+	border-width: .5rem;
+	border-style: solid;
+	border-color: white;
+	padding:0;
+	box-shadow: 2px 0px 6px 0 rgba(0, 0, 0, 0.07),
+				-2px 0px 6px 0 rgba(0, 0, 0, 0.07),
+				0px 2px 6px 0 rgba(0, 0, 0, 0.07),
+				0px -2px 6px 0 rgba(0, 0, 0, 0.07);
+}
+
+#about .title{
+	text-align: center;
+	font-size: 40px;
+}
+
+@media (max-width: 575px){
+	#about .title{
+	text-align: center;
+	font-size: 28px;
+	}
+}
+
+/*CV*/
+#cv{
+	color: rgba(80,80,80,1);
+}
+
+#cv .title{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 500px;
+	color: rgba(200,230,255,.5);
+	z-index: 0;
+	padding: 0px; 
+	overflow: hidden;
+}
+
+#cv .subtitle{
+	font-size: 27px;
+	border-bottom: 2px solid rgba(80,80,80,1);
+	margin-bottom: 25px;
+}
+
+#cv .first{
+	font-size: 16px;
+	font-weight: bold; 
+}
+
+#cv .second{
+	font-size: 12px;
+	color: rgba(120,120,120,1);
+}
+
+#cv .institution{
+	color: rgb(0,70,130);
+	text-align: left;
+}
+
+#cv .country{
+	font-weight: bold;
+}
+
+#cv #skills .hdr{
+	font-weight: bold;
+}
+
+#cv #skills .subskill{
+	font-size: 12px;
+	margin-left: .5rem;
+	line-height: 15px;
+}
+
+@media (max-width: 575px){
+	#cv .title{
+		font-size: 350px;
+
+	}
+}
+
+
+/*General*/
+.innerjump{
+	text-align: justify;
+	box-shadow: 4px 0px 6px 0 rgba(0, 0, 0, .2),-4px 0px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.blt{
+	background: linear-gradient(120deg, rgba(10,40,80,1) 0%, rgba(100,140,220,.9) 95%, rgba(100,140,220,.8) 100%);
+	color: white;
+}
+
+.wht{
+	background: linear-gradient(120deg, rgba(255,255,255,1) 0%, rgba(255,255,255,.9) 95%, rgba(255,255,255,.8) 100%);
+}
+
+
+/*Scrollbar*/
+/*::-webkit-scrollbar {
+  width: 5px;
+}*/
+
+
+
+
+
+
+
+
+
+
+

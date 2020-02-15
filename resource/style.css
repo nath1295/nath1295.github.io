@@ -99,9 +99,8 @@ li.nav-item.shrink:hover{
 	font-size: 28px;}
 
 	#home .btn{
-	position:absolute;
-	bottom: 3vh;
-	right: auto;
+	margin-top: 25px;
+	position: static;
 	}
 }
 @media (max-width: 575px){

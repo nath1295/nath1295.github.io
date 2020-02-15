@@ -20,8 +20,6 @@ function deleteshow() {
 	}
 deleteshow()
 
-$('#loading').remove();
-
 var navHeight = parseInt($('nav').css('height'), 10);
 $(".nav-item").click(function() {
 	$('.nav-item').removeClass('active');
@@ -47,7 +45,5 @@ $(window).scroll(function() {
 $(".navbar-toggler").on('click',function(){
 	$('#navbarSupportedContent').slideToggle(400)	
 })
-
-
 
 window.addEventListener('resize',deleteshow)

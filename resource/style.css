@@ -139,17 +139,6 @@ li.nav-item.shrink:hover{
 	color: rgba(80,80,80,1);
 }
 
-#cv .title{
-	position: absolute;
-	top: 0;
-	left: 0;
-	font-size: 500px;
-	color: rgba(200,230,255,.5);
-	z-index: 0;
-	padding: 0px; 
-	overflow: hidden;
-}
-
 #cv .subtitle{
 	font-size: 27px;
 	border-bottom: 2px solid rgba(80,80,80,1);
@@ -185,12 +174,6 @@ li.nav-item.shrink:hover{
 	line-height: 15px;
 }
 
-@media (max-width: 575px){
-	#cv .title{
-		font-size: 350px;
-
-	}
-}
 
 
 /*General*/

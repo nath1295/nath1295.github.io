@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nathan</title>
+	<title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Caveat:400,700|Montserrat:400,700,900&display=swap" rel="stylesheet">
@@ -29,12 +29,6 @@
       <li class="nav-item px-0 px-lg-3">
         <a class="nav-link" name="#cv">CV</a>
       </li>
- <!--      <li class="nav-item px-0 px-lg-3">
-        <a class="nav-link" name="#experience">Experience</a>
-      </li>
-      <li class="nav-item px-0 px-lg-3">
-        <a class="nav-link" name="#skills">Skills</a>
-      </li> -->
       <li class="nav-item px-0 px-lg-3">
         <a class="nav-link" name="#portfolio">Portfolio</a>
       </li>
@@ -55,7 +49,7 @@
   <div id="home" class="innerjump d-flex flex-column col-12 justify-content-center align-items-center">
     <div class="name">Nathan Tam</div>
     <div class="descript col-12 col-md-10 col-lg-8">STEM graduate well-prepared for opportunities to develop a career in data analytics and technology sector.</div>
-    <button class="btn" id="getcv">Get my CV</button>  
+    <button class="btn getcv">Get my CV</button>  
   </div>
 
   <!-- About -->
@@ -74,7 +68,7 @@
 
   <!-- CV -->
   <div id="cv" class="innerjump wht d-flex justify-content-center col-12">
-    <div class="d-flex flex-column flex-lg-row col-12 col-lg-11 col-xl-10 mt-5">
+    <div class="d-flex flex-column flex-lg-row col-12 col-lg-11 col-xl-10 mt-5 justify-content-center">
       <div class="col-lg-8 flex-column">
         <div id="education" class="mb-4">
           <div class="subtitle">Education</div>
@@ -214,10 +208,10 @@
             <div>Cantonese (native)</div>
             <div>English (fluent)</div>
             <div>Mandarin (converstational)</div>
-          </div>
+          </div>     
         </div>
       </div>
-      
+      <div id="cv-btn"><button class="btn btn-primary getcv">Get my CV</button></div>
     </div>  
   </div>
 
@@ -226,7 +220,42 @@
   </div>
 
   <!-- Contact -->
-  <div id="contact" class="innerjump wht d-flex col-12 flex-column align-items-center">
+  <div id="contact" class="innerjump d-flex col-12 flex-column align-items-center px-0">
+    <div class="wht col-12 d-flex flex-column justify-content-center align-items-center" id="in-contact">
+      <div class="title my-3">Contact</div>
+      <div class="col-md-10 col-lg-9 col-xl-6 mb-3" id="faq">
+        <div class="subtitle mb-3">Feel free to drop me a message and let me get back to you...</div>
+        <form id="comment">
+          <div class="form-group">
+            <label for="fname">First name</label>
+            <input type="text" class="form-control col-lg-3 col-xl-4" id="fname" placeholder="First name">
+          </div>
+          <div class="form-group">
+            <label for="lname">Last name</label>
+            <input type="text" class="form-control col-lg-3 col-xl-4" id="lname" placeholder="Last name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address*</label>
+            <input type="email" class="form-control col-lg-5 col-xl-6" id="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your message*</label>
+            <textarea type="text" class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+      <div class="mb-5">
+        <div class="mb-3" id="s-media">...or find out more about me here</div>
+        <div class="d-flex justify-content-center">
+          <div class="social mx-2" id="linkedin" href="https://www.linkedin.com/in/nathantam95/"><img src="resource/IMG/linkedin.png"></img></div>
+          <div class="social mx-2" id="github" href="https://github.com/nath1295/Data-Science-Portfolio"><img src="resource/IMG/GitHub.png"></img></div>
+          <div class="social mx-2" id="gmail" href="mailto:nathan1295@gmail.com"><img src="resource/IMG/gmail.png"></img></div>
+      </div>
+    </div>
+      
+      
+    </div>
     
   </div>
 

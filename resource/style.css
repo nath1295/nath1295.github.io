@@ -130,7 +130,7 @@ li.nav-item.shrink:hover{
 
 #about .title{
 	text-align: center;
-	font-size: 40px;
+	font-size: 50px;
 }
 
 @media (max-width: 575px){
@@ -180,7 +180,60 @@ li.nav-item.shrink:hover{
 	line-height: 15px;
 }
 
+#cv #cv-btn {
+	position: absolute;
+	bottom: 60px;
+	right: 0px;
+}
 
+@media (max-width: 991px){
+	#cv #cv-btn {
+	position: static;
+	margin-bottom: 50px; 
+	}
+}
+
+@media (hover: none) {
+    #cv .btn:hover {
+    	border: #007bff;;
+    	background-color: #007bff;;
+    }
+}
+
+/*Porfolio*/
+
+/*Contact*/
+#contact{
+	background-color: rgba(0,0,0,.2);
+}
+
+#in-contact{
+
+}
+
+#contact .title{
+	text-align: center;
+	font-size: 50px;
+}
+
+@media (max-width: 575px){
+	#contact .title{
+	text-align: center;
+	font-size: 28px;
+	}
+}
+
+#contact .subtitle{
+	font-size:22px;
+}
+
+#contact .social img{
+	width:50px;
+}
+
+#contact #s-media{
+	border-bottom: 1px solid rgba(200,200,200,0.5);
+}
 
 /*General*/
 .innerjump{

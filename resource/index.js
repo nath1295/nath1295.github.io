@@ -55,5 +55,36 @@ function downloadcv() {
     element.click(); 
     document.body.removeChild(element); 
 }
-$("#home #getcv").on("click",downloadcv)
+
+function buttontolink() { 
+    var element = document.createElement('a'); 
+    element.setAttribute('href', $(this).attr('href')); 
+    element.setAttribute('target', '_blank'); 
+	document.body.appendChild(element); 
+    element.click(); 
+    document.body.removeChild(element); 
+}
+
+$('#comment').on('submit', function(e){
+	e.preventDefault();
+	var fname = $('#fname').val();
+	var lname = $('#lname').val();
+	var email = $('#email').val();
+	var message = $('message').val();
+	var til;
+	if((fname==='') && (lname)===''){
+		til='Sir/Madam'
+	}else{
+		if(fname===''){
+			til==="Mr/Mrs/Ms/ "+lname;
+		}else{
+			til = fname;
+		}
+	}
+	alert('Thank you for your message, '+til+'. I will get back to you ASAP!');
+	$(this)[0].reset();
+})
+
+$(".getcv").on("click",downloadcv)
+$(".social").on("click",buttontolink)
 window.addEventListener('resize',deleteshow)

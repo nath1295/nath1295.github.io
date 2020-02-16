@@ -201,6 +201,57 @@ li.nav-item.shrink:hover{
 }
 
 /*Porfolio*/
+#portfolio .title{
+	text-align: center;
+	font-size: 50px;
+}
+
+#portfolio img{
+	object-fit: cover;
+	height: 25vh;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+#portfolio #holder{
+	flex-wrap: wrap;
+}
+
+#portfolio .card{
+	border: 0px;
+	box-shadow: 0 0 6px rgba(0,0,0,.2);
+	color: black;
+	height: 60vh;
+	min-height: 500px;
+}
+
+#portfolio .btn{
+	position: absolute;
+	bottom: 40px;
+	width:180px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#portfolio .btn:focus{
+	box-shadow: none;
+}
+
+#portfolio .card-title{
+	font-weight: bold;
+	margin-bottom: .25rem;
+	text-align: left;
+}
+
+#portfolio .card-subtitle{
+	font-size: 12px;
+	margin-bottom: 1rem;
+}
+#portfolio .social img{
+	height: 50px;
+	border-bottom: 0px;
+}
 
 /*Contact*/
 #contact{
